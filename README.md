@@ -1,5 +1,5 @@
 # 2020RM-Armor-Detect
-This project is the detection code of the sentinel armor of the Jianfeng team of Shenyang Jianzhu University
+This project is the detection code of the sentinel armor of the Jianfeng team of Shenyang Jianzhu University， Code presidential frame reference to the sentinel vision program of Southeast University 2018，
 
 # Platform:
 1.ubuntu16.04
@@ -7,6 +7,8 @@ This project is the detection code of the sentinel armor of the Jianfeng team of
 2.opencv3.4.1
 
 3.cmake
+
+4.Use USB-TTL to communicate with STM32
 
 # How to run the code
 1.Modify the part of CmakeLists.txt that contains the file path and change its path to the path of the file in your ubuntu system
