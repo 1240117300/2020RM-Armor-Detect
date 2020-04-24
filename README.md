@@ -25,6 +25,3 @@ This project is the detection code of the sentinel armor of the Jianfeng team of
 2.The angle_solver_params.xml contains Contains camera calibration data
 
 3. The svm2.xml is the model trained by SVM, which code is showed in SVM train code
-
-
-
