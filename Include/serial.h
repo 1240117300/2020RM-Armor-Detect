@@ -28,8 +28,8 @@ class Uart{
 
 		}
 		/**
-		* @����: Open
-		* @����: �򿪴���
+		* 打开串口
+		* 
 		 */
 		bool Open(const char * device, int _speed, int _parity, bool _should_block)
 		{
@@ -85,8 +85,8 @@ class Uart{
 		}
 
 		/**
-		* @����: restart
-		* @����: ��������
+		* 重启串口
+		* 
 		 */
 		bool restart()
 		{
@@ -136,8 +136,8 @@ class Uart{
 		
 		
 		/**
-		* @����: ReadData
-		* @����: ��ȡ����
+		* 读取串口数据
+		* 
 		 */
 		bool ReadData(unsigned char data[23], unsigned char & mode, float & yaw, short & pitch, float & timestamp, short & heat42, short & heat17, unsigned char & bulletSpeed17)
 		{
@@ -200,8 +200,8 @@ class Uart{
 		}
 		
 		/**
-		* @����: SendData
-		* @����: �����ֽ�����
+		* 发送数据
+		* 
 		 */
 		bool SendData(char* data,int len)
 		{
@@ -224,8 +224,8 @@ class Uart{
 		}
 
 		/**
-		* @����: send
-		* @����: ���ͱ�������
+		*  发送数据帧
+		* 
 		 */
 		bool send(float yaw, float pitch, float distance)
 		{
@@ -320,8 +320,8 @@ class Uart{
 
 
 		/**
-		* @����: SendMiss();
-		* @����: ������ʶ�����ָ��
+		* 这个发送空数据，目前还不知道用来做什么
+		* 
 		 */
 		bool SendMiss()
 		{
@@ -353,8 +353,8 @@ class Uart{
 
 
 		/**
-		* @����: Close
-		* @����: �رմ���
+		* 关闭窗口
+		* 
 		 */
 		void Close()
 		{
