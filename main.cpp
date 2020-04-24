@@ -211,6 +211,9 @@ void trackbar(int, void*)
 	cv::waitKey(5);
 
 }
+/*
+装甲板检测子函数
+*/
 
 int detect( cv::Mat& frame )
 {
