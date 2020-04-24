@@ -3,7 +3,9 @@ This project is the detection code of the sentinel armor of the Jianfeng team of
 
 # Platform:
 1.ubuntu16.04
+
 2.opencv3.4.1
+
 3.cmake
 
 # How to run the code
