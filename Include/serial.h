@@ -306,7 +306,7 @@ class Uart{
 			data[1] = _FloatToCharUnion.data[1];
 			data[2] = _FloatToCharUnion.data[2];
 			data[3] = _FloatToCharUnion.data[3];
-			for (int inc = 0; inc < 3; inc++)
+			for (int inc = 0; inc < 4; inc++)
 			{
 				data[4] ^= data[inc];
 			}
